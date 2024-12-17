@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover, .nav a.active {
+    color: #FFD700;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    background: #444;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.live {
+    padding: 20px;
+}
+
+.drbak {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
